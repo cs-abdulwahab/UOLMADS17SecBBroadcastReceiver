@@ -15,6 +15,6 @@ public class MyReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
 
         Log.d(TAG, "onReceive: in the receiver ");
-        String s = "";
+
     }
 }
