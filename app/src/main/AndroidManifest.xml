@@ -16,7 +16,6 @@
 		<activity android:name=".MainActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN"/>
-
 				<category android:name="android.intent.category.LAUNCHER"/>
 			</intent-filter>
 		</activity>
@@ -27,8 +26,8 @@
 			android:exported="true"
 			>
 			<intent-filter>
-				<!-- <action android:name="android.intent.action.AIRPLANE_MODE"/> -->
-				<action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+				<action android:name="android.intent.action.AIRPLANE_MODE"/>
+				<!--<action android:name="android.provider.Telephony.SMS_RECEIVED"/>-->
 			</intent-filter>
 		</receiver>
 
